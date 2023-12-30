@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/steam-train-chugs-through-mountain-forest-scene-generative-ai_188544-8072.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703894400&semt=sph");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0;
+    color: black;
+}
+
+#container{
+    margin: 10vh auto;
+    display: grid;
+    width: 50vw;
+    height: 60vh;
+    min-width: 500px;
+    background-color: rgba(255,255,255, 0.7);
+    border: 2px solid black;
+}
+
+#head-el,#count-el{
+    text-align: center;
+}
+#count-el{
+    font-size: 2em;
+}
+button{
+    width: 50%;
+    margin: 2px auto;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+#count-btn{
+    background-color: brown;
+}
+#save-btn{
+    background-color: rgb(100, 254, 100);
+}
+#save-msg{
+    text-align: center;
+    font-weight: bold;
+}
